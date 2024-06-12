@@ -1,0 +1,137 @@
+
+.peluche-detalles-div{
+    display: flex;
+    flex-direction: row !important;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.peluche-box-lista{
+    display: flex;
+    flex-direction: column;
+    align-items: last baseline;
+    justify-content: space-between;
+}
+
+.peluche-box-lista div{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: last baseline;
+}
+
+.peluche-box-lista p{
+    text-align: right;
+    margin-top: 0px;
+}
+
+ .peluche-box-lista img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+
+
+.buttons-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.eliminarButton{
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    border-radius: 1%;
+    padding: 2px 4px;
+}
+
+.eliminarButton:hover{
+    opacity: 0.6;
+}
+
+.editarButton{
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 1%;
+    padding: 2px 4px;
+}
+
+.editarButton:hover{
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 480px) {
+
+.peluche-box-lista{
+    max-width: 420px;
+    min-width: 300px;
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.peluche-box-lista div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+
+.peluche-detalles-div{
+    display: flex;
+    flex-direction: column !important;
+    width: 100%;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+
+
+.peluche-box-lista img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+
+.peluche-box-lista p{
+    text-align: left;
+}
+
+.buttons-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.eliminarButton{
+    width: 100%;
+}
+
+
+
+.editarButton{
+    width: 100%;
+
+}
+
+
+
+}

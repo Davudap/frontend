@@ -1,0 +1,47 @@
+.peluches-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.peluche-box{
+    max-width: 840px;
+    min-width: 460px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    .peluches-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+    .peluche-box{
+        max-width: 420px;
+        min-width: 300px;
+
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+
+}

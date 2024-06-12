@@ -1,0 +1,169 @@
+*{   
+    padding: 0px;
+    box-sizing: border-box;
+}   
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, white, whitesmoke) ;
+}
+
+.container {
+    max-width: 340px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.formContainer{
+    max-width: 140px;
+    min-width: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 10px;
+    position: relative;
+    
+}
+
+.header{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    font-weight: bold;
+    width: 100%;
+    gap: 9px;
+}
+
+.header .text{
+    color: yellowgreen;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.underline{
+    width: 60px;
+    height: 10px;
+    background-color: yellowgreen;
+    border-radius: 10px;
+}
+
+
+.submitContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    margin: 30px;
+    border-radius: 10px;
+    background-color: lavender;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    color: white;
+    background-color: yellowgreen;
+
+    margin: 0px;
+
+    height: 30px;
+
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 10px;
+
+    position: relative;
+
+    cursor: pointer;
+
+}
+
+.gray{
+    font-size: 12px;
+    font-weight: bold;
+    background-color: lavender;
+    border-radius: 10px;
+    color: black;
+}
+
+.inputs{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+    margin-bottom: 30px;
+    
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.inputs input:not(.submitConfirm){
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: none;
+    width: 220px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    color: black;
+    font-size: 16px;
+    margin: 0px;
+}
+
+
+.submitConfirm{
+    
+    background-color: yellowgreen;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    height: 30px;
+
+    border-radius: 10px;
+    box-shadow: none;
+    width: 220px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    margin-top: 30px;
+
+
+}
+
+.submitConfirm:hover{
+    background-color: yellowgreen;
+    opacity: 0.9;
+}
+
+.submitConfirm:active{
+    background-color: greenyellow;
+}
+

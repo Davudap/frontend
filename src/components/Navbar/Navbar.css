@@ -1,0 +1,103 @@
+
+*{   
+    padding: 0px;
+    box-sizing: border-box;
+}   
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    background-color: yellowgreen;
+}
+
+.navbar p{
+    margin: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+
+.btnLogin{
+    margin: 20px;
+    background-color: darkseagreen;
+    color: white;
+
+    border: none;
+
+    padding: 10px;
+    border-radius: 10px;
+
+    font-weight: bold;
+}
+
+.btnLogin:hover{
+    background-color: gray;
+    opacity: 0.9;
+}
+
+.btnLogin:active{
+    background-color: gainsboro;
+    opacity: 0.9;
+}
+
+
+.rightNavbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav_item{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navlink{
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 489px) {
+
+    .user_navbar{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .user_navbar p{
+        display:none !important; 
+    }
+
+    .nav-list{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .nav_item {
+        
+        padding: 0px;
+        color: whitesmoke;
+        font-weight: bold;
+        
+    }
+    
+
+  }
